@@ -1,0 +1,116 @@
+/* write your css here */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Gasoek+One") ;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 6vh;
+    border: 7px solid rgb(138, 138, 226);
+    padding: 1vh 5vw;
+    background-color: rgb(182, 182, 255);
+    border-radius: 13px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* align-items: center; */
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+
+.image{
+    width: 380px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tour-info{
+    margin: 20px 5px;
+}
+
+.tour-price{
+    color: #1faa59;
+    font-size: 2rem;
+    font-family: 'Gasoek One', sans-serif;
+}
+
+.tour-name{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.read-more{
+color: #12b0e8;
+cursor: pointer;
+}
+
+.btn-red{
+    margin-top: 18px;
+    padding: 10px 120px;
+    border: 1px solid #b4161b;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #b4161b21;
+}
+
+.btn-red:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.2s;
+}
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-white{
+    margin-top:18px ;
+    padding: 10px 80px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-white:hover{
+    background-color: white;
+    color: #000;
+    transition: all 0.2s;
+}
