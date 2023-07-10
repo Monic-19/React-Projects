@@ -42,3 +42,20 @@ A list of projects made in React using Bootstrap / Tailwind CSS.
 <p align="center">
 <img width="480" alt="Screenshot 2023-07-08 at 12 17 48 AM" src="https://github.com/Monic-19/React-Projects/assets/118365854/b8abe85c-c9f8-4739-b457-738bc655e7ca">
 </p>
+
+# (3) Video Gallery App
+<br>
+<p align="center">
+<img width="480" alt="Screenshot 2023-07-11 at 1 47 11 AM" src="https://github.com/Monic-19/React-Projects/assets/118365854/6aef5bc0-3af4-4b31-a00a-b88015a2f138">
+<img width="480" alt="Screenshot 2023-07-11 at 1 46 44 AM" src="https://github.com/Monic-19/React-Projects/assets/118365854/4aef2270-1c5d-4b2e-a0da-4fb81ac4dcd2">
+</p>
+
+<p align="center">
+<img width="480" alt="Screenshot 2023-07-11 at 1 47 34 AM" src="https://github.com/Monic-19/React-Projects/assets/118365854/6c7a13d6-a3e9-440b-9b8a-401fc53e7851">
+<img width="480" alt="Screenshot 2023-07-11 at 1 47 25 AM" src="https://github.com/Monic-19/React-Projects/assets/118365854/3678a269-7966-4872-838d-cf4aa73faac1">
+</p>
+
+
+
+
+
