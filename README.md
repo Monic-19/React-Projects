@@ -44,6 +44,8 @@ A list of projects made in React using Bootstrap / Tailwind CSS.
 </p>
 
 # (3) Video Gallery App
+## [video-platform-rouge.vercel.app](https://video-platform-rouge.vercel.app/)
+
 <br>
 <p align="center">
 <img width="480" alt="Screenshot 2023-07-11 at 1 47 11 AM" src="https://github.com/Monic-19/React-Projects/assets/118365854/6aef5bc0-3af4-4b31-a00a-b88015a2f138">
