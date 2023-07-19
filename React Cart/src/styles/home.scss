@@ -1,0 +1,12 @@
+@import "colors";
+
+
+
+.home{
+    background-color: $primary;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem;
+    color: $primaryDark;
+}

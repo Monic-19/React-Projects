@@ -1,0 +1,27 @@
+@import "colors";
+
+
+@media screen and (max-width : 820px){
+    .cart{
+        grid-template-columns: 1fr;
+
+        >aside{
+            padding: 2rem;
+            border-radius: 0;
+
+            >h2{
+                font-weight: 100;
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .cartItem{
+
+        grid-template-columns: 2fr 2fr 1fr 1fr;
+
+        >button{
+            flex-direction: column;
+        }
+    }
+}

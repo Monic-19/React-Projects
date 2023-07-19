@@ -1,0 +1,132 @@
+@import 'colors';
+
+body{
+    background-color: $secondary;
+}
+
+.cart{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+    >main{
+        padding: 2rem;
+        overflow-y: auto;
+    }
+ 
+
+    >aside{
+        border-radius: 100px 0 0 100px;
+        background-color: $primaryDark;
+        height: 100%;
+        width: 100%;
+        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.182);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1.25rem;
+
+        >h2{
+            margin: 1rem;
+            font-weight: 100;
+            font-size: 1.6rem;
+            letter-spacing: 2px;
+            padding-left: 1.5rem;
+
+            &:last-of-type{
+                font-weight: 600;
+                padding-top: 2rem;
+                border-top: 2px solid $tertiary;
+            }
+        }
+
+    }
+}
+
+.empty{
+    color: $primaryDark;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.cart main::-webkit-scrollbar{
+    display: none;
+}
+
+.cartItem{
+    background-color: $tertiary;
+    color: $primary;
+    width: 100%;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    align-items: center;
+
+    >img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    >article{
+        margin-left: 30px;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+    }
+
+    >div{
+      display: flex;  
+      align-items: center;
+      height: 100%;
+
+      >p{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 1.5rem;
+      }
+
+      >button{
+        width: 30px;
+        height: 30px;
+        border: none;
+        background-color: $primary;
+        color: $tertiary;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover{
+            background-color: $secondaryDark;
+            color: $primaryDark;
+        }
+
+      }
+
+    }
+}
+
+.deleteIcon {
+    cursor: pointer;
+    font-size: 2rem;
+    display: inline-block;
+    margin: auto;
+    color: $red;
+
+    &:hover {
+      color: $redDark;
+    }
+  }
+
+ 
